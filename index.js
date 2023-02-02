@@ -1,6 +1,39 @@
 /**
+ * Todo
+ * @typedef {Object} Todo
+ * @property {number} id
+ * @property {string} content
+ * @property {boolean} completed
+ * @property {string} category
+ * @property {string[]} [tags]
+ */
+
+/**
  * @function
  * @name CREATE
- * @param {string} contents - 새로 등록 할 내용
+ * @param {Todo} todo
  */
-const create = (contents) => {};
+const Create = (todo) => {};
+
+/**
+ * @function
+ * @name READ
+ * @param {number} id
+ * @return {Todo} todo
+ */
+const Read = (id) => {};
+
+/**
+ * @function
+ * @name UPDATE
+ * @param {Todo} todo
+ */
+const Update = () => {};
+
+/**
+ * @function
+ * @name DELETE
+ * @param {string} [id]
+ * @param {string} [tag]
+ */
+const Delete = (id, tag) => {};
