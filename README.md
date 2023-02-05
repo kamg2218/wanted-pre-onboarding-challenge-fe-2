@@ -1,6 +1,8 @@
-# wanted-pre-onboarding-challenge-fe-2
+# 원티드 2월 프리온보딩 챌린지 과제
 
-원티드 2월 프리온보딩 챌린지 과제
+## 배포 URL
+
+[URL](https://kamg2218.github.io/wanted-pre-onboarding-challenge-fe-2/index.html)
 
 ## [CREATE](global.html#create)
 
