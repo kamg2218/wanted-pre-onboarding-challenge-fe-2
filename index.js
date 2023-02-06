@@ -13,6 +13,7 @@
  * @function
  * @name CREATE
  * @param {Todo} todo - 새로 추가할 할 일
+ * @return {void}
  */
 const Create = (todo) => {};
 
@@ -30,6 +31,7 @@ const Read = (id) => {};
  * @function
  * @name UPDATE
  * @param {Todo} todo - 수정할 할일
+ * @return {void}
  */
 const Update = () => {};
 
@@ -39,5 +41,6 @@ const Update = () => {};
  * @name DELETE
  * @param {string} [id] - 삭제하고자 하는 일의 아이디
  * @param {string[]} [tags] - 삭제하고자 하는 일의 태그들
+ * @return {void}
  */
 const Delete = (id, tags) => {};
